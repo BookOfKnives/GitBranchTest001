@@ -10,6 +10,7 @@ public class controllerone {
 
     private String name = "Hans";
     private String nam2e = "not sure how this works.";
+    private String nawm2e = "not sure AGAIN how this works.";
 
     @GetMapping("/")
     public String myfunc(){
