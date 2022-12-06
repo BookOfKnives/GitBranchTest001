@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class controllerone {
 
     private String name = "Hans";
+    private String nam2e = "not sure how this works.";
 
     @GetMapping("/")
     public String myfunc(){
